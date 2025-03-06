@@ -41,14 +41,46 @@
     <img src="assets/svg's/main-logo.svg" alt="Lil Wayne text logo" class="main-logo">
   </a>
   <h1>Latest Lil Wayne News:</h1>
-
-
-
-
-
-
-
+  <div class="news-section">
+    <article class="main-article">
+      <div class="main-article-image">
+        <img src="assets/images/news/main-article-image.jpg" alt="Lil Wayne performing on stage">
+      </div>
+      <div class="main-article-content">
+        <p class="article-date" data-published="2025-03-05T10:00:00Z"></p>
+        <h2 class="article-title">Lil Wayne concert at Donald L. Tucker Civic Center canceled due to ‘unforeseen circumstances’.</h2>
+        <p class="article-description">Lil Wayne was expected to play this Thursday with special guests Quavo and Anella...</p>
+      </div>
+    </article>
+    <aside class="related-articles">
+      <artile class="related-article">
+        <img src="related-1.jpg" alt="Lil Wayne stood in the middle of a full crowd stadium" class="related-article-image">
+        <p class="article-date" data-published="2025-03-05T10:00:00Z"></p>
+        <h3 class="article-title">Lil Wayne feels hurt after being passed over as Super Bowl halftime headliner.</h3>
+        <p class="article-description">Lil Wayne opens up about the super bowl performance...</p>
+      </artile>
+      <artile class="related-article">
+        <img src="related-2.jpg" alt="Lil Wayne" class="related-article-image">
+        <p class="article-date" data-published="2025-02-02T10:00:00Z"></p>
+        <h3 class="article-title">Lil Wayne feels hurt after being passed over as Super Bowl halftime headliner.</h3>
+        <p class="article-description">Lil Wayne opens up about the super bowl performance...</p>
+      </artile>
+      <artile class="related-article">
+        <img src="related-3.jpg" alt="Lil Wayne with his son at NBA game" class="related-article-image">
+        <p class="article-date" data-published="2025-01-01T10:00:00Z"></p>
+        <h3 class="article-title">Lil Wayne feels hurt after being passed over as Super Bowl halftime headliner.</h3>
+        <p class="article-description">Lil Wayne opens up about the super bowl performance...</p>
+      </artile>
+    </aside>
   </div>
+
+
+
+
+
+  <footer>
+    <script src="assets/scripts/date-updater.js" defer></script>
+  </footer>
 </body>
 
 </html>
