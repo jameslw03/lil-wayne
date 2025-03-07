@@ -44,7 +44,7 @@
   <div class="news-section">
     <article class="main-article">
       <div class="main-article-image">
-        <img src="assets/images/news/main-article-image.jpg" alt="Lil Wayne performing on stage">
+        <img src="assets/images/news/main-article.jpg" alt="Lil Wayne performing on stage">
       </div>
       <div class="main-article-content">
         <p class="article-date" data-published="2025-03-05T10:00:00Z"></p>
@@ -54,25 +54,41 @@
     </article>
     <aside class="related-articles">
       <artile class="related-article">
-        <img src="related-1.jpg" alt="Lil Wayne stood in the middle of a full crowd stadium" class="related-article-image">
-        <p class="article-date" data-published="2025-03-05T10:00:00Z"></p>
-        <h3 class="article-title">Lil Wayne feels hurt after being passed over as Super Bowl halftime headliner.</h3>
-        <p class="article-description">Lil Wayne opens up about the super bowl performance...</p>
+        <div class="related-article-image">
+          <img src="assets/images/news/related-article-1.jpg" alt="Lil Wayne stood in the middle of a full crowd stadium" class="related-article-image">
+        </div>
+        <div class="related-article-content">
+          <p class="article-date" data-published="2025-03-05T10:00:00Z"></p>
+          <h3 class="article-title">Lil Wayne feels hurt after being passed over as Super Bowl halftime headliner.</h3>
+          <p class="article-description">Lil Wayne opens up about the super bowl performance...</p>
+        </div>
       </artile>
       <artile class="related-article">
-        <img src="related-2.jpg" alt="Lil Wayne" class="related-article-image">
-        <p class="article-date" data-published="2025-02-02T10:00:00Z"></p>
-        <h3 class="article-title">Lil Wayne feels hurt after being passed over as Super Bowl halftime headliner.</h3>
-        <p class="article-description">Lil Wayne opens up about the super bowl performance...</p>
+        <div class="related-article-image">
+          <img src="assets/images/news/related-article-2.jpg" alt="Lil Wayne stood in the middle of a full crowd stadium" class="related-article-image">
+        </div>
+        <div class="related-article-content">
+          <p class="article-date" data-published="2025-03-05T10:00:00Z"></p>
+          <h3 class="article-title">Lil Wayne feels hurt after being passed over as Super Bowl halftime headliner.</h3>
+          <p class="article-description">Lil Wayne opens up about the super bowl performance...</p>
+        </div>
       </artile>
       <artile class="related-article">
-        <img src="related-3.jpg" alt="Lil Wayne with his son at NBA game" class="related-article-image">
-        <p class="article-date" data-published="2025-01-01T10:00:00Z"></p>
-        <h3 class="article-title">Lil Wayne feels hurt after being passed over as Super Bowl halftime headliner.</h3>
-        <p class="article-description">Lil Wayne opens up about the super bowl performance...</p>
+        <div class="related-article-image">
+          <img src="assets/images/news/related-article-3.jpg" alt="Lil Wayne stood in the middle of a full crowd stadium" class="related-article-image">
+        </div>
+        <div class="related-article-content">
+          <p class="article-date" data-published="2025-03-05T10:00:00Z"></p>
+          <h3 class="article-title">Lil Wayne feels hurt after being passed over as Super Bowl halftime headliner.</h3>
+          <p class="article-description">Lil Wayne opens up about the super bowl performance...</p>
+        </div>
       </artile>
     </aside>
   </div>
+  <a href="#" class="see-more-articles">
+    <p>See More</p>
+    <img src="assets/svg's/red-right-arrow.svg" alt="Arrow to indicate next page">
+  </a>
 
 
 
