@@ -89,7 +89,46 @@
     <p>See More</p>
     <img src="assets/svg's/red-right-arrow.svg" alt="Arrow to indicate next page">
   </a>
-
+  <h2 class="h1">Upcoming Tour Dates:</h2>
+  <div class="tour-section">
+    <img src="assets/svg's/i-am-music.svg" alt="I AM MUSIC svg the same as his face tattoo" class="i-am-music">
+    <article class="tour-date one">
+      <div class="arrow-text-wrapper">
+        <img src="assets/svg's/red-right-arrow.svg" class="arrow-hover-state" alt="Arrow to idnicate hover on section">
+        <h3 class="city">Birmingham, AL</h3>
+      </div>
+      <time class="date" datetime="2025-03-7">Mar 07</time>
+      <p class="venue">Legacy Arena at The BKCC</p>
+      <div class="tour-actions">
+        <a href="#" class="btn btn-outline">Tickets</a>
+        <a href="#" class="btn btn-rsvp">RSVP</a>
+      </div>
+    </article>
+    <article class="tour-date two">
+      <div class="arrow-text-wrapper">
+        <img src="assets/svg's/red-right-arrow.svg" class="arrow-hover-state" alt="Arrow to idnicate hover on section">
+        <h3 class="city">Norfolk, VA</h3>
+      </div>
+      <time class="date" datetime="2025-03-14">Mar 14</time>
+      <p class="venue">Chartway Arena</p>
+      <div class="tour-actions">
+        <a href="#" class="btn btn-outline">Tickets</a>
+        <a href="#" class="btn btn-rsvp">RSVP</a>
+      </div>
+    </article>
+    <article class="tour-date three">
+      <div class="arrow-text-wrapper">
+        <img src="assets/svg's/red-right-arrow.svg" class="arrow-hover-state" alt="Arrow to idnicate hover on section">
+        <h3 class="city">Raleigh, NC</h3>
+      </div>
+      <time class="date" datetime="2025-03-15">Mar 15</time>
+      <p class="venue">Lenovo Center</p>
+      <div class="tour-actions">
+        <a href="#" class="btn btn-outline">Tickets</a>
+        <a href="#" class="btn btn-rsvp">RSVP</a>
+      </div>
+    </article>
+  </div>
 
 
 
