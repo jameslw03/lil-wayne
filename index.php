@@ -134,9 +134,60 @@
     <img src="assets/svg's/red-right-arrow.svg" alt="Arrow to indicate next page">
   </a>
 
+  <h2 class="h1">Bio:</h2> 
+  <div class="bio-section">
+    <img src="assets/svg's/fear.svg" alt="Fear tattoo from Lil Waynes eyelid" class="fear-tattoo">
+    <article>
+        <h3 class="name">Name</h3>
+        <p>Dwayne Michael Carter Jr., known professionally as Lil Wayne.</p>
+        
+        <h3 class="age">Age</h3>
+        <p>Born: 27 September 1982 (age 42), New Orleans, Louisiana, United States.</p>
+        
+        <h3 class="record-labels">Record Labels</h3>
+        <p>Young Money Entertainment.</p>
+        
+        <p class="description">Lil Wayne is an American rapper. He is often regarded as one of the most influential hip hop artists of his generation, as well as one of the greatest rappers of all time.</p>
+    </article>
+    <div class="rapper-rating">
+      <div class="overall-rating">
+        <h2 class="rapper-rating-title">Rapper Raiting</h2>
+        <div class="rating-wheel">
+          <img src="assets/svg's/overall-percentage-wheel.svg" alt="Percentage wheel to represent overall rating wich is 95.5/100" class="overall-rating-wheel">
+          <p class="overall-rating-text">95.5/100</p>
+        </div>
+      </div>
+      <div class="rating-breakdown">
+      <article class="rating-card">
+            <h3>Lyricism</h3>
+            <p>Measures wordplay, flow, storytelling, and lyrical creativity.</p>
+            <p class="score">23/25</p>
+            <img src="assets/svg's/rating-bar-lyricism.svg" alt="Rating bar that shows 23/25" class="rating-bar">
+        </article>
+        
+        <article class="rating-card">
+            <h3>Influence</h3>
+            <p>Evaluates cultural impact, legacy, and industry reach.</p>
+            <p class="score">25/25</p>
+            <img src="assets/svg's/rating-bar-full.svg" alt="Rating bar that shows 25/25" class="rating-bar">
+        </article>
 
-
-
+        <article class="rating-card">
+            <h3>Discography</h3>
+            <p>Rates the quality and consistency of albums and features.</p>
+            <p class="score">22.5/25</p>
+            <img src="assets/svg's/rating-bar-discography.svg" alt="Rating bar that shows 22.5/25" class="rating-bar">
+        </article>
+        
+        <article class="rating-card">
+            <h3>Creativity</h3>
+            <p>Assesses innovation, artistic vision, and originality.</p>
+            <p class="score">25/25</p>
+            <img src="assets/svg's/rating-bar-full.svg" alt="Rating bar that shows 25/25" class="rating-bar">
+        </article>
+      </div>
+    </div>
+  </div>
   <footer>
     <script src="assets/scripts/date-updater.js" defer></script>
   </footer>
