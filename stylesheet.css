@@ -309,9 +309,6 @@ p.venue {
   font-size: 16px;
   color: #111;
 }
-.arrow-hover-state {
-  display: none;
-}
 .tour-actions {
   display: flex;
   flex-direction: row;
@@ -325,4 +322,122 @@ p.venue {
   border-radius: 50px;
   color: #B42C1E;
   cursor: pointer;
+  transition: all 0.3s ease, z-index 0.3s ease;
+}
+.tour-actions .btn:hover {
+  background-color: #B42C1E;
+  color: #fff;
+}
+.tour-date .arrow-hover-state,
+.tour-date .venue,
+.tour-date .tour-actions {
+    opacity: 0;
+}
+.tour-date .arrow-hover-state,
+.tour-date .venue,
+.tour-date .tour-actions,
+.tour-date .date,
+.tour-date .city {
+    transition: all 0.3s ease, z-index 0.3s ease;
+}
+
+.tour-date:hover .arrow-hover-state,
+.tour-date:hover .venue,
+.tour-date:hover .tour-actions {
+    opacity: 1;
+}
+.tour-date:hover .city {
+    padding-left: 10px;
+    color: #B42C1E;
+}
+.tour-date:hover .date,
+.tour-date:hover .venue {
+    color: #B42C1E;
+}
+.tour-date:hover {
+  background-color: rgba(245, 245, 245, 0.7);
+  z-index: 1;
+}
+img.i-am-music {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 251px;
+}
+.city {
+  white-space: nowrap;
+  overflow: hidden;
+  transition: max-width 0.3s ease, padding-right 0.3s ease, color 0.3s ease;
+  padding-right: 0;
+  height: auto;
+  line-height: 1.2; /* Ensure enough space for descenders */
+}
+
+/* Hover State */
+.tour-date:hover .city {
+  white-space: normal;
+  max-width: 100%; 
+  padding-right: 10px;
+}
+@media (max-width: 1119px) {
+  .tour-section {
+  position: relative;
+  max-width: 790px;
+  width: 100%;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+  .tour-date {
+  gap: 29.5px;
+  background-color: rgba(245, 245, 245, 0.7);
+  z-index: 1;
+}
+.tour-date .venue,
+.tour-date .tour-actions {
+  opacity: 1;
+}
+.tour-actions {
+gap: 6.5px;
+}
+.tour-date .arrow-hover-state {
+  display: none;
+}
+}
+
+@media (max-width: 790px) {
+  .tour-section {
+      max-width: 500px;
+      gap: 16px;
+  }
+  .tour-date {
+      flex-direction: column;
+      align-items: flex-start;
+      height: 227px;
+      padding-left: 16px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+  }
+  .tour-date.one,
+  .tour-date.two,
+  .tour-date.three {
+      border-radius: 20px;
+  }
+  img.i-am-music {
+  right: 37px;
+}
+  .tour-actions {
+      gap: 14px;
+  }
+  h3.city {
+      width: 100%;
+  }
+  time.date {
+      width: 100%;
+  }
+  p.venue {
+      width: 100%;
+  }
 }

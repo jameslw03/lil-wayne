@@ -86,7 +86,7 @@
     </aside>
   </div>
   <a href="#" class="see-more-articles">
-    <p>See More</p>
+    <p>See All</p>
     <img src="assets/svg's/red-right-arrow.svg" alt="Arrow to indicate next page">
   </a>
   <h2 class="h1">Upcoming Tour Dates:</h2>
@@ -129,6 +129,10 @@
       </div>
     </article>
   </div>
+  <a href="#" class="see-more-articles">
+    <p>See All</p>
+    <img src="assets/svg's/red-right-arrow.svg" alt="Arrow to indicate next page">
+  </a>
 
 
 
