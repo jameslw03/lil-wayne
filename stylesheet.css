@@ -832,3 +832,47 @@ h2.h1.discography {
   margin-bottom: 20px;
   font-size: 20px
 }
+
+.score-bar-wrapper {
+  width: 260px;
+  height: 9px;
+  position: relative;
+  
+}
+
+.fill-bar {
+  height: 9px;
+  background-color: #B42C1E;
+  border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+}
+
+
+.background-bar {
+  width: 260px;
+  height: 9px;
+  background-color: #DDA09A;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+}
+
+
+.pill-outline {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  z-index: 4;
+}
+
+.rating-card-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}

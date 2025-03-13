@@ -1,3 +1,4 @@
+<?php require_once("functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -150,7 +151,7 @@
         <h2 class="rapper-rating-title">Rapper Raiting</h2>
         <div class="rating-wheel">
           <img src="assets/svg's/overall-percentage-wheel.svg" alt="Percentage wheel to represent overall rating wich is 95.5/100" class="overall-rating-wheel">
-          <p class="overall-rating-text">95.5/100</p>
+          <p class="overall-rating-text">92/100</p>
         </div>
       </div>
       <div class="rating-breakdown">
@@ -163,7 +164,11 @@
             </div>
             <div class="rating-card-rating">
               <p class="score">23/25</p>
-              <img src="assets/svg's/rating-bar-lyricism.svg" alt="Rating bar that shows 23/25" class="rating-bar">
+              <div class="score-bar-wrapper">
+                <div class="background-bar"></div>
+                <div class="fill-bar" style="width: <?php echo calculateRedBarWidth(23, 25); ?>px;"></div>
+                <img src="assets/svg's/pill-outline.svg" alt="Score pills to visually show amount" class="pill-outline">
+              </div>
             </div>
           </article>
           <article class="rating-card influence">
@@ -174,7 +179,11 @@
             </div>
             <div class="rating-card-rating">
               <p class="score">25/25</p>
-              <img src="assets/svg's/rating-bar-full.svg" alt="Rating bar that shows 25/25" class="rating-bar">
+              <div class="score-bar-wrapper">
+                <div class="background-bar"></div>
+                <div class="fill-bar" style="width: <?php echo calculateRedBarWidth(25, 25); ?>px;"></div>
+                <img src="assets/svg's/pill-outline.svg" alt="Score pills to visually show amount" class="pill-outline">
+              </div>
             </div>
           </article>
         </div>
@@ -186,8 +195,12 @@
               <p>Rates the quality and consistency of albums and features.</p>
             </div>
             <div class="rating-card-rating">
-              <p class="score">22.5/25</p>
-              <img src="assets/svg's/rating-bar-discography.svg" alt="Rating bar that shows 22.5/25" class="rating-bar">
+              <p class="score">20/25</p>
+              <div class="score-bar-wrapper">
+                <div class="background-bar"></div>
+                <div class="fill-bar" style="width: <?php echo calculateRedBarWidth(20, 25); ?>px;"></div>
+                <img src="assets/svg's/pill-outline.svg" alt="Score pills to visually show amount" class="pill-outline">
+              </div>
             </div>
           </article>
           <article class="rating-card creativity">
@@ -197,8 +210,12 @@
               <p>Assesses innovation, artistic vision, and originality.</p>
             </div>
             <div class="rating-card-rating">
-              <p class="score">25/25</p>
-              <img src="assets/svg's/rating-bar-full.svg" alt="Rating bar that shows 25/25" class="rating-bar">
+              <p class="score">24/25</p>
+              <div class="score-bar-wrapper">
+                <div class="background-bar"></div>
+                <div class="fill-bar" style="width: <?php echo calculateRedBarWidth(24, 25); ?>px;"></div>
+                <img src="assets/svg's/pill-outline.svg" alt="Score pills to visually show amount" class="pill-outline">
+              </div>
             </div>
           </article>
         </div>
