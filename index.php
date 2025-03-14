@@ -366,6 +366,8 @@
   <section id="gallery">
 
   </section>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OZLUa8JUR18?si=jA-PalDSn6z4owgn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2N1pWk6xj2LX6sgGzHKbLX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   <footer>
     <script src="assets/scripts/date-updater.js" defer></script>
   </footer>
