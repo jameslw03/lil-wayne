@@ -46,7 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* wrapper */
 body {
   font-family: 'Helvetica', 'Arial', sans-serif;
@@ -886,4 +888,56 @@ h2.h1.discography {
   top: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+}
+
+section#news,
+section#tour-dates,
+section#lil-wayne,
+section#discography {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:  28px;
+    height: auto;
+    margin-bottom: 100px;
+    height: 26px;
+}
+
+.nav-menu a {
+    font-size: 16px;
+    text-decoration: undeline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+    color: #111;
+    transition: all 0.s ease-in-out;
+    display: inline-block;
+    white-space: nowrap; 
+}
+
+.nav-menu a:hover {
+    color: #B42C1E;
+}
+
+@media (max-width: 790px) {
+  .nav-menu {
+      max-width: 500px;
+      width: 100%;
+      padding: 0 24px;
+      overflow-x: auto; 
+      white-space: nowrap; 
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; 
+      gap: 20px; 
+  }
+
 }
