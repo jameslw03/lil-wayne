@@ -149,9 +149,31 @@
     <div class="rapper-rating">
       <div class="overall-rating">
         <h2 class="rapper-rating-title">Rapper Raiting</h2>
-        <div class="rating-wheel">
-          <img src="assets/svg's/overall-percentage-wheel.svg" alt="Percentage wheel to represent overall rating wich is 95.5/100" class="overall-rating-wheel">
+        <div class="rating-wheel-wrapper">
           <p class="overall-rating-text">92/100</p>
+          <div class="rating-wheel">
+            <?php
+            $score = 90; // Dynamic Score
+            $maxScore = 100;
+            $radius = 45; // Circle Radius
+            $circumference = 2 * pi() * $radius;
+
+            // Calculate dynamic stroke-dashoffset
+            $offset = $circumference - ($score / $maxScore) * $circumference;
+            ?>
+            <svg class="progress-circle" width="100" height="100" viewBox="0 0 100 100">
+              <!-- Background Circle -->
+              <circle class="circle-bg" cx="50" cy="50" r="45" stroke="#DDA09A" stroke-width="7" fill="none" />
+              <!-- Foreground Progress Circle -->
+              <circle class="circle-fill" cx="50" cy="50" r="<?php echo $radius; ?>"
+                stroke="#B42C1E" stroke-width="7"
+                stroke-linecap="round"
+                fill="none"
+                stroke-dasharray="<?php echo $circumference; ?>"
+                stroke-dashoffset="<?php echo $offset; ?>"
+                transform="rotate(-90 50 50)" />
+            </svg>
+          </div>
         </div>
       </div>
       <div class="rating-breakdown">

@@ -876,3 +876,14 @@ h2.h1.discography {
   align-items: flex-start;
   gap: 6px;
 }
+
+.rating-wheel-wrapper {
+  position: relative;
+}
+
+.overall-rating-text {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
