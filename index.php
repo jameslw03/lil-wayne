@@ -293,7 +293,7 @@
   <section id="discography">
     <h2 class="h1 discography">Discography:</h2>
     <div class="tha-carter-series">
-      <h3 class="carter-series-title">Tha Carter Series</h3>
+      <h3 class="carter-series-title">Tha Carter Series:</h3>
       <div class="column-one">
         <div class="flip-card carter-one">
           <div class="flip-card-inner">
@@ -301,7 +301,7 @@
               <img src="assets/images/carter-series/tha-carter-1.jpg" alt="Carter 1 album cover">
             </div>
             <div class="flip-card-back">
-              <img src="assets/images/carter-series/tha-carter-1-back.jpg" alt="Carter 1 back cover">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5POcKy926GgzFHZpGptJac?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
           </div>
         </div>
@@ -311,7 +311,7 @@
               <img src="assets/images/carter-series/tha-carter-2.jpg" alt="Carter 2 album cover">
             </div>
             <div class="flip-card-back">
-              <img src="assets/images/carter-series/tha-carter-2-back.jpg" alt="Carter 2 back cover">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7slHgsEMuJfnuft5LAPyw6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
           </div>
         </div>
@@ -323,7 +323,7 @@
               <img src="assets/images/carter-series/tha-carter-3.jpg" alt="Carter 3 album cover">
             </div>
             <div class="flip-card-back">
-              <img src="assets/images/carter-series/tha-carter-3-back.jpg" alt="Carter 3 back cover">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1Do3y8IAcbYOToYQJnGwSO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
           </div>
         </div>
@@ -333,7 +333,7 @@
               <img src="assets/images/carter-series/tha-carter-4.jpg" alt="Carter 4 album cover">
             </div>
             <div class="flip-card-back">
-              <img src="assets/images/carter-series/tha-carter-4-back.jpg" alt="Carter 4 back cover">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0pFydyko4Iw450abXlDPpp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
           </div>
         </div>
@@ -345,7 +345,7 @@
               <img src="assets/images/carter-series/tha-carter-5.jpg" alt="Carter 5 album cover">
             </div>
             <div class="flip-card-back">
-              <img src="assets/images/carter-series/tha-carter-5-back.jpg" alt="Carter 5 back cover">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/50yFYgKdwJANZ5O9MIbMkg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
           </div>
         </div>
@@ -355,7 +355,9 @@
               <img src="assets/images/carter-series/tha-carter-6.jpg" alt="Carter 6 album cover">
             </div>
             <div class="flip-card-back">
-              <img src="assets/images/carter-series/tha-carter-6-back.jpg" alt="Carter 6 back cover">
+              <h3>Coming Soon</h3>
+              <p>June 06 2025</p>
+              <a href="#" class="lean-more">Learn More</a>
             </div>
           </div>
         </div>
@@ -366,9 +368,65 @@
   <section id="gallery">
 
   </section>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/OZLUa8JUR18?si=jA-PalDSn6z4owgn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2N1pWk6xj2LX6sgGzHKbLX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
   <footer>
+    <div class="footer-wrapper">
+      <div class="email-sign-up">
+        <h3 class="sign-up-title">Keep up to date with Lil Wayne news</h3>
+        <div class="enter-details">
+          <!-- Form -->
+          <form id="connect" class="contact-form" action="/includes/email-signup.php" method="POST">
+            <fieldset>
+
+              <!-- First Name -->
+              <div class="contact-form__field name">
+                <label for="full-name"></label>
+                <input type="text" id="full-name" name="name" class="contact-form__input" placeholder="First Name" required>
+              </div>
+
+              <!-- Last Name (optional, add if needed) -->
+              <div class="contact-form__field last-name">
+                <label for="last-name"></label>
+                <input type="text" id="last-name" name="last_name" class="contact-form__input" placeholder="Last Name">
+              </div>
+
+              <!-- Email -->
+              <div class="contact-form__field email">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" class="contact-form__input" placeholder="Email Address" required>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="contact-form__submit button">Sign Up</button>
+            </fieldset>
+          </form>
+          <p class="subscribe-text">Subscribe to lilwaynesource.com newsletter</p>
+        </div>
+      </div>
+      <div class="footer-content">
+        <div class="website-categories">
+          <div class="website">
+            <h3>Website</h3>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Disclaimer</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="categories">
+            <h3>Categories</h3>
+            <a href="#">News</a>
+            <a href="#">Tour Dates</a>
+            <a href="#">All Music</a>
+            <a href="#">Rapper Rating</a>
+          </div>
+        </div>
+        <div class="support-website">
+          <p>Support the website</p>
+          <a href="#" class="lean-more">Learn More</a>
+        </div>
+      </div>
+      <p class="copywrite-text">Copyright © 2025 LilWayneSource All rights reserved.</p>
+    </div>
     <script src="assets/scripts/date-updater.js" defer></script>
   </footer>
 </body>

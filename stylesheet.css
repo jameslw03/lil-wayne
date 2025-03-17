@@ -802,7 +802,6 @@ h2.h1.discography {
   max-width: 1200px;
   width: 100%;
   padding: 0 80px;
-  margin-bottom: 200px;
 }
 
 @media (max-width: 1119px) {
@@ -940,4 +939,118 @@ section#discography {
       gap: 20px; 
   }
 
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+}
+
+
+.flip-card.carter-six .flip-card-back {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.flip-card.carter-six .flip-card-back h3 {
+  font-size: 30px;
+}
+.flip-card.carter-six .flip-card-back p {
+  font-size: 20px;
+}
+.flip-card.carter-six .flip-card-back a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 18px 28px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.flip-card.carter-six .flip-card-back a:hover {
+  background-color: #fff;
+  color: #B42C1E;
+}
+
+
+.footer-wrapper {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 80px;
+  align-items: flex-start;
+  gap: 16px;
+}
+.email-sign-up {
+  display: flex;
+  flex-direction: row;
+  width: 1040px;
+  justify-content: center;
+  align-items: center;
+  height: 136px;
+  background: linear-gradient(to  right, #A5291C, #6E1B13);
+  border-radius: 20px;
+}
+
+.sign-up-title {
+  width: 204px;
+  font-size: 20px;
+  line-height: 130%;
+  color: #fff;
+  margin-right: 56px;
+}
+
+.enter-details {
+  display: flex;
+  flex-direction: column;
+}
+.footer-wrapper form#connect fieldset {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-form__field {
+  height: 23px;
+  border: none;
+  border-bottom : 1px solid #fff;
+  width: 150px;
+}
+
+.contact-form__field input {
+  background: none;
+  border: none;
+  width: 150px;
+}
+.contact-form__field input::placeholder {
+  color: #fff;
+  font-size: 14px;
+}
+button.contact-form__submit.button {
+  background: none;
+  border: 1px solid #fff;
+  padding: 18px 28px;
+  font-size: 16px;
+  border-radius: 50px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin-left: 36px;
+}
+
+button.contact-form__submit.button:hover {
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 18px 28px;
+  font-size: 16px;
+  border-radius: 50px;
+  color: #B42C1E;
+}
+.subscribe-text {
+  color: #fff;
+  font-size: 14px;
 }
