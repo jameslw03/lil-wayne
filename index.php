@@ -364,10 +364,6 @@
       </div>
     </div>
   </section>
-  <!-- Gallery -->
-  <section id="gallery">
-
-  </section>
 
   <footer>
     <div class="footer-wrapper">
@@ -406,23 +402,29 @@
       <div class="footer-content">
         <div class="website-categories">
           <div class="website">
-            <h3>Website</h3>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Disclaimer</a>
-            <a href="#">Privacy Policy</a>
+            <div class="website-text-wrapper">
+              <h3>Website</h3>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+              <a href="#">Disclaimer</a>
+              <a href="#">Privacy Policy</a>
+            </div>
           </div>
           <div class="categories">
-            <h3>Categories</h3>
-            <a href="#">News</a>
-            <a href="#">Tour Dates</a>
-            <a href="#">All Music</a>
-            <a href="#">Rapper Rating</a>
+            <div class="categories-text-wrapper">
+              <h3>Categories</h3>
+              <a href="#">News</a>
+              <a href="#">Tour Dates</a>
+              <a href="#">All Music</a>
+              <a href="#">Rapper Rating</a>
+            </div>
           </div>
         </div>
         <div class="support-website">
-          <p>Support the website</p>
-          <a href="#" class="lean-more">Learn More</a>
+          <div class="support-website-text-wrapper">
+            <p>Support the website</p>
+            <a href="#" class="lean-more">Learn More</a>
+          </div>
         </div>
       </div>
       <p class="copywrite-text">Copyright © 2025 LilWayneSource All rights reserved.</p>
